@@ -1,5 +1,6 @@
 body {
     box-sizing: border-box;
+    background-color: black;
     margin: 0;
     padding: 0;
 }
@@ -15,11 +16,12 @@ header {
 header span {
     font-family: fantasy;
     font-size: 3rem;
+    color: white;
 }
 
 .container {
     align-items: center;
-    background-color: aquamarine;
+    background-color: ghostwhite;
     display: flex;
     height: 70vh; 
     justify-content: space-evenly;
@@ -27,11 +29,11 @@ header span {
 
 .square {
     background-color: white;
-    border: 2px solid black;
-    height: 150px;
-    width: 15%;
+    box-shadow: 10px 10px #ff0045;
+    height: 100px;
+    width: 100px;
 }
 
 .border-bottom {
-    border-bottom: 3px dotted darkmagenta;
+    border-bottom: 20px solid #ff0045;
 }
