@@ -14,9 +14,10 @@ header {
 }
 
 header span {
-    font-family: fantasy;
+    color: #FF4E50;
+    font-family: 'Source Code Pro', monospace;
     font-size: 3rem;
-    color: white;
+    text-transform: uppercase;
 }
 
 .container {
@@ -29,11 +30,12 @@ header span {
 
 .square {
     background-color: white;
-    box-shadow: 10px 10px #ff0045;
+    box-shadow: 10px 10px #FF4E50;
     height: 100px;
     width: 100px;
 }
 
 .border-bottom {
-    border-bottom: 20px solid #ff0045;
+   border-bottom: 7px solid #FF4E50; 
+
 }
