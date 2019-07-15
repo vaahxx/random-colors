@@ -1,0 +1,37 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    align-content: center;
+    height: 35%;
+    text-align: center;
+    vertical-align: 50vh;
+    padding: 20px;
+}
+
+header span {
+    font-family: fantasy;
+    font-size: 3rem;
+}
+
+.container {
+    align-items: center;
+    background-color: aquamarine;
+    display: flex;
+    height: 70vh; 
+    justify-content: space-evenly;
+}
+
+.square {
+    background-color: white;
+    border: 2px solid black;
+    height: 150px;
+    width: 15%;
+}
+
+.border-bottom {
+    border-bottom: 3px dotted darkmagenta;
+}
