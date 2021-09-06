@@ -1,3 +1,9 @@
+![image](https://user-images.githubusercontent.com/39314687/132207462-360c72ac-3185-4461-a837-0564ed9f0b73.png)
+
+
+https://user-images.githubusercontent.com/39314687/132207700-4b25b5dc-cdc5-4253-9838-57fc6d43af4a.mov
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,11 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
