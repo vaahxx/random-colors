@@ -12,8 +12,8 @@ export default function ColorfulSquare() {
     setBackgroundColor(
       `rgb(${getRandomNumber()}, ${getRandomNumber()}, ${getRandomNumber()}`
     );
-    setWidth(`${getRandomNumber()}px`);
-    setHeigth(`${getRandomNumber()}px`);
+    // setWidth(`${getRandomNumber()}px`);
+    // setHeigth(`${getRandomNumber()}px`);
   };
 
   return (
