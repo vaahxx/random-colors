@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ColorfulSquare from "./Square";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>Random Colors Square</code>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <strong>Move your mouse across the squares</strong>
       </header>
+      <div className="App-squares-container">
+        <ColorfulSquare />
+        <ColorfulSquare />
+        <ColorfulSquare />
+        <ColorfulSquare />
+        <ColorfulSquare />
+      </div>
     </div>
   );
 }

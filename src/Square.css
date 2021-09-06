@@ -1,0 +1,7 @@
+.Colorful-square {
+  background-color: blueviolet;
+  /* background-color: white; */
+  box-shadow: 10px 10px #ff4e50;
+  height: 150px;
+  width: 150px;
+}
