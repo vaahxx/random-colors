@@ -2,7 +2,8 @@
 
 https://random-colors-square.vercel.app/
 
-<img width="1197" alt="image" src="https://user-images.githubusercontent.com/39314687/172642552-86256c1e-8597-4289-bae5-8748d1dd3414.png">
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/39314687/183299278-320426a8-8b5f-44c6-b50b-cc2c279fcb2e.png">
+
 
 # Getting Started with Create React App
 
