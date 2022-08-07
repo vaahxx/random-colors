@@ -5,10 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          <code>Random Colors Square</code>
-        </p>
-        <strong>Move your mouse across the squares</strong>
+        <h1>Random Colors Square</h1>
+        <span>Move your mouse across the squares</span>
       </header>
       <div className="App-squares-container">
         <ColorfulSquare />
