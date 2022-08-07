@@ -1,8 +1,8 @@
-![image](https://user-images.githubusercontent.com/39314687/132207462-360c72ac-3185-4461-a837-0564ed9f0b73.png)
+# randomColorsSquare
 
+https://random-colors-square.vercel.app/
 
-https://user-images.githubusercontent.com/39314687/132207700-4b25b5dc-cdc5-4253-9838-57fc6d43af4a.mov
-
+<img width="1197" alt="image" src="https://user-images.githubusercontent.com/39314687/172642552-86256c1e-8597-4289-bae5-8748d1dd3414.png">
 
 # Getting Started with Create React App
 
