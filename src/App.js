@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Random Colors Square</h1>
-        <span>Move your mouse across the squares</span>
+        <span>Move your mouse across the squares to create a color</span>
+        <span>Click the square to copy the RGB color to clipboard</span>
       </header>
       <div className="App-squares-container">
         <ColorfulSquare />

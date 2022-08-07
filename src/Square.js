@@ -1,5 +1,18 @@
 import { useState } from "react";
+import styled from "styled-components";
 import "./Square.css";
+
+const Square = styled.div.attrs((props) => ({
+  style: {
+    backgroundColor: props.color,
+    boxShadow: `10px 10px ${props.boxShadowColor}`,
+  },
+}))`
+  border: 2px solid white;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+`;
 
 const getRandomNumber = () => Math.floor(Math.random() * (255 - 0));
 
@@ -11,18 +24,20 @@ export default function ColorfulSquare() {
     const red = getRandomNumber();
     const green = getRandomNumber();
     const blue = getRandomNumber();
-    setColor(`rgb(${red}, ${green}, ${blue}`);
-    setBoxShadowColor(`rgb(${red}, ${green}, ${blue}, 0.6`);
+    setColor(`rgb(${red}, ${green}, ${blue})`);
+    setBoxShadowColor(`rgb(${red}, ${green}, ${blue}, 0.6)`);
+  };
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(color);
   };
 
   return (
-    <div
-      className="Colorful-square"
-      style={{
-        backgroundColor: color,
-        boxShadow: `10px 10px ${boxShadowColor}`,
-      }}
+    <Square
+      color={color}
+      boxShadowColor={boxShadowColor}
       onMouseMove={handleMouseMove}
-    ></div>
+      onClick={handleCopy}
+    />
   );
 }
