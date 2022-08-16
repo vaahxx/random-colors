@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styled from "styled-components";
-import "./Square.css";
 
 const Square = styled.div.attrs((props) => ({
   style: {
@@ -9,8 +8,8 @@ const Square = styled.div.attrs((props) => ({
   },
 }))`
   border: 2px solid white;
-  height: 150px;
-  width: 150px;
+  height: 62vh;
+  width: 30vw;
   cursor: pointer;
 `;
 
