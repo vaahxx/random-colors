@@ -1,8 +1,8 @@
-# randomColorsSquare
+# Random Colors
 
 https://random-colors-square.vercel.app/
 
-<img width="1439" alt="image" src="https://user-images.githubusercontent.com/39314687/183299278-320426a8-8b5f-44c6-b50b-cc2c279fcb2e.png">
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/39314687/184759162-b70589cb-c0f5-4f7b-beb9-d03ebc89c365.png">
 
 
 # Getting Started with Create React App
